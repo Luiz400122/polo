@@ -18,17 +18,7 @@ label {
   font-weight: bold;
 }
 
-#btnSair {
-  float: inline-end;
-  font-size: medium;
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  line-height: 12.5px;
-  position: absolute;
-  top: -20px; /* Deslocamento para cima */
-  right: -20px; /* Deslocamento para a direita */
-}
+
 
 #modalLogin {
   z-index: 11;
