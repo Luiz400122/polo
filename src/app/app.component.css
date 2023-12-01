@@ -1,7 +1,7 @@
 footer {
   background-color: dodgerblue;
   color: white;
-  height: 300px;
+  min-height: 300px;
   width: 100%;
   text-align: center;
 }
@@ -19,7 +19,7 @@ nav {
 }
 img {
   width: 200px;
-  height: 100px;
+  height: 80px;
 }
 
 #navbarHeader.hidden {
