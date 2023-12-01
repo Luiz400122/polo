@@ -3,20 +3,20 @@
 <nav class="container-fluid" id="navbarHeader">
   <div class="row">
     <div class="col-3 p-0 ">
-      <a href="mailto:contato@polo.com.br" id="mail" class=""><img src="https://github.com/Luiz400122/polo/blob/gh-pages/assets/email_blue.ico" alt="email"
+      <a href="mailto:contato@polo.com.br" id="mail" class=""><img src="src/assets/email_blue.ico" alt="email"
           id="logoemail" />
         {{ contato }}</a>
     </div>
     <div class="col-8 p-0 ">
       <a href="https://wa.me/+5519995573590" id="mail" class="float-end "><img alt="Chat on WhatsApp"
-          src="https://github.com/Luiz400122/polo/blob/gh-pages/assets/whatsicon.png" id="logoemail" />
+          src="src/assets/whatsicon" id="logoemail" />
         (19)99557-3590</a>
     </div>
   </div>
 </nav>
 <nav class="navbar navbar-expand-lg justify-content-around d-flex container-fluid">
   <div class="container me-xl-5">
-    <a class="navbar-brand" routerLink="/home" (click)="esconderCarrinho"><img src="../assets/polo_logo.jpg" /></a>
+    <a class="navbar-brand" routerLink="/home" (click)="esconderCarrinho"><img src="src/assets/polo_logo.jpg" /></a>
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
@@ -79,7 +79,7 @@
           <div>Bem vindo(a), {{ email }}</div>
           <div>
             <a href="#" (click)="deslogar()" style="text-decoration: none">
-              <img src="../assets/log-out.png" alt="" id="logout" srcset="" title="Sair" />
+              <img src="src/assets/log-out.png" alt="" id="logout" srcset="" title="Sair" />
               Logout</a>
           </div>
         </div>
