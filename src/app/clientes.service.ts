@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ClientesService {
 
-  apiURL: string = 'http://localhost:8080/api/user'
+  apiURL: string = 'https://deploy-polo.onrender.com/api/user'
 
   constructor(private http: HttpClient) { }
 
